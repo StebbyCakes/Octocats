@@ -1,0 +1,57 @@
+.octodex .octocat img{
+  max-width: 300px;
+  max-height: 300px;
+  outline: 4px solid #808080;
+  position: relative;
+}
+
+
+.octodex .octocat .authors img{
+  max-width: 30px;
+  max-height: 30px;
+  outline: none;
+}
+
+.octodex .octocat .authors li{
+  display: inline-flex;
+  padding: 0px;
+}
+
+.octodex li {
+max-width: 200px;
+max-height: 200px;
+display: inline-block;
+padding: 50px;
+margin: 8px;
+}
+
+.image-number {
+  /* need to add hashtag infront somehow */
+  color: #CBCBCC;
+  display: inline-block;
+  /* margin-right: 100px; */
+
+}
+
+.image-caption {
+  display: inline;
+  margin-left: 160px;
+  float: right;
+}
+
+span {
+  color: #808080;
+  display: inline-block;
+
+}
+
+a {
+  color: #000000;
+  text-decoration: none;
+}
+
+.image-footer {
+  display: inline-flex;
+  max-width: 300px;
+  height: auto;
+}
